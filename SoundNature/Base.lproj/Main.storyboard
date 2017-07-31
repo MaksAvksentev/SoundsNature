@@ -6,6 +6,236 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Sound Nature-->
+        <scene sceneID="vJC-f6-Vku">
+            <objects>
+                <viewController storyboardIdentifier="RandomViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lzh-Nv-zSY" customClass="RandomViewController" customModule="SoundNature" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MyS-i2-v5V"/>
+                        <viewControllerLayoutGuide type="bottom" id="2S2-pa-AVW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Emp-lq-8Jq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="TDh-K1-UXt" customClass="ButtonBarView" customModule="XLPagerTabStrip">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="fBp-Ri-Ihw"/>
+                                </constraints>
+                                <inset key="scrollIndicatorInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="DBZ-vd-gOH">
+                                    <size key="itemSize" width="40" height="40"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="TDh-K1-UXt" firstAttribute="top" secondItem="MyS-i2-v5V" secondAttribute="bottom" id="9Ub-rS-Nin"/>
+                            <constraint firstItem="TDh-K1-UXt" firstAttribute="leading" secondItem="Emp-lq-8Jq" secondAttribute="leading" id="WMw-CY-gzt"/>
+                            <constraint firstAttribute="trailing" secondItem="TDh-K1-UXt" secondAttribute="trailing" id="b4l-D5-aCS"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Sound Nature" id="drO-oR-zQu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZPB-Lx-hsG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="590" y="-3103"/>
+        </scene>
+        <!--Sound Nature-->
+        <scene sceneID="ifl-IU-6oU">
+            <objects>
+                <viewController storyboardIdentifier="SavedTracksViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yxk-fY-TPA" customClass="SavedTracksViewController" customModule="SoundNature" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Ps-xw-Rg2"/>
+                        <viewControllerLayoutGuide type="bottom" id="i56-GE-kSr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ftq-EP-aGH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZlM-91-ODO" customClass="ButtonBarView" customModule="XLPagerTabStrip">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="KWO-8Z-wZg"/>
+                                </constraints>
+                                <inset key="scrollIndicatorInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Mic-CZ-MIc">
+                                    <size key="itemSize" width="40" height="40"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ZlM-91-ODO" secondAttribute="trailing" id="Ccy-th-a18"/>
+                            <constraint firstItem="ZlM-91-ODO" firstAttribute="leading" secondItem="ftq-EP-aGH" secondAttribute="leading" id="QqF-6Y-hon"/>
+                            <constraint firstItem="ZlM-91-ODO" firstAttribute="top" secondItem="3Ps-xw-Rg2" secondAttribute="bottom" id="oj4-i4-NHN"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Sound Nature" id="s6t-ca-cbs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LSM-XO-X3U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1582" y="-3104"/>
+        </scene>
+        <!--Sound Nature-->
+        <scene sceneID="NsO-nB-eUc">
+            <objects>
+                <viewController storyboardIdentifier="TimerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FAL-UZ-Z5W" customClass="TimerViewController" customModule="SoundNature" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jOq-QH-0kk"/>
+                        <viewControllerLayoutGuide type="bottom" id="R79-aA-eAn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fJf-K1-kuj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nXx-kl-tv0" customClass="ButtonBarView" customModule="XLPagerTabStrip">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="SY4-df-0U6"/>
+                                </constraints>
+                                <inset key="scrollIndicatorInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="y00-PQ-Wcn">
+                                    <size key="itemSize" width="40" height="40"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="nXx-kl-tv0" secondAttribute="trailing" id="Drk-ys-FaH"/>
+                            <constraint firstItem="nXx-kl-tv0" firstAttribute="top" secondItem="jOq-QH-0kk" secondAttribute="bottom" id="TVs-dr-QLc"/>
+                            <constraint firstItem="nXx-kl-tv0" firstAttribute="leading" secondItem="fJf-K1-kuj" secondAttribute="leading" id="ddc-QM-gE7"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Sound Nature" id="Ij1-YV-fSk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c7w-F6-8Fh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2623" y="-3104"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IpN-xl-dD9">
+            <objects>
+                <navigationController id="Pfe-Om-ChQ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b4P-SK-trc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="lzW-F2-Iy7" kind="relationship" relationship="rootViewController" id="kSU-Wt-LDn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oe7-t9-YIj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-425" y="-3830"/>
+        </scene>
+        <!--Sound Nature-->
+        <scene sceneID="2Ik-iC-IPp">
+            <objects>
+                <viewController storyboardIdentifier="SoundsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6rD-2b-uuS" customClass="SoundsViewController" customModule="SoundNature" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ffJ-SQ-U9A"/>
+                        <viewControllerLayoutGuide type="bottom" id="rpj-Tr-Wc6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J5D-lg-Q9n">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="afF-hR-77r" customClass="ButtonBarView" customModule="XLPagerTabStrip">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="pu5-Nh-y57"/>
+                                </constraints>
+                                <inset key="scrollIndicatorInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="OVR-Zm-rBh">
+                                    <size key="itemSize" width="40" height="40"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="afF-hR-77r" firstAttribute="leading" secondItem="J5D-lg-Q9n" secondAttribute="leading" id="IP1-Ak-Wu5"/>
+                            <constraint firstAttribute="trailing" secondItem="afF-hR-77r" secondAttribute="trailing" id="QQ5-ET-W0g"/>
+                            <constraint firstItem="afF-hR-77r" firstAttribute="top" secondItem="ffJ-SQ-U9A" secondAttribute="bottom" id="yfX-pZ-V75"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Sound Nature" id="Y1b-GR-PN4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IBk-QY-Ahd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-426" y="-3103"/>
+        </scene>
+        <!--Sounds Nature-->
+        <scene sceneID="eqk-u7-DIb">
+            <objects>
+                <viewController id="lzW-F2-Iy7" customClass="BaseController" customModule="SoundNature" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O2F-Sh-eyu"/>
+                        <viewControllerLayoutGuide type="bottom" id="dHJ-sJ-p7l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7bl-AJ-t6b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ur3-f8-7ju" customClass="ButtonBarView" customModule="XLPagerTabStrip">
+                                <rect key="frame" x="0.0" y="64" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="l5v-QN-RG1"/>
+                                </constraints>
+                                <inset key="scrollIndicatorInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="IlM-ri-Puc">
+                                    <size key="itemSize" width="40" height="40"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1X8-gx-Gfg">
+                                <rect key="frame" x="0.0" y="114" width="375" height="553"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </scrollView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="1X8-gx-Gfg" secondAttribute="trailing" id="0ug-8j-n6f"/>
+                            <constraint firstAttribute="trailing" secondItem="ur3-f8-7ju" secondAttribute="trailing" id="1Hm-hy-WqQ"/>
+                            <constraint firstItem="ur3-f8-7ju" firstAttribute="leading" secondItem="7bl-AJ-t6b" secondAttribute="leading" id="VqG-6g-bJK"/>
+                            <constraint firstItem="1X8-gx-Gfg" firstAttribute="top" secondItem="ur3-f8-7ju" secondAttribute="bottom" id="c9Q-Ba-pns"/>
+                            <constraint firstItem="dHJ-sJ-p7l" firstAttribute="top" secondItem="1X8-gx-Gfg" secondAttribute="bottom" id="dVs-Pg-fSk"/>
+                            <constraint firstItem="1X8-gx-Gfg" firstAttribute="leading" secondItem="7bl-AJ-t6b" secondAttribute="leading" id="f47-sS-bd7"/>
+                            <constraint firstItem="ur3-f8-7ju" firstAttribute="top" secondItem="O2F-Sh-eyu" secondAttribute="bottom" id="ucs-zl-7BZ"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Sounds Nature" id="c8N-eI-D0E"/>
+                    <connections>
+                        <outlet property="buttonBarView" destination="ur3-f8-7ju" id="nu0-bh-fOn"/>
+                        <outlet property="containerView" destination="1X8-gx-Gfg" id="Xfp-TO-09x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="esF-7D-5C3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="590" y="-3829"/>
+        </scene>
+    </scenes>
 </document>
