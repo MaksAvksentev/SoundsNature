@@ -1,0 +1,6 @@
+framework module Pods_SoundNature {
+  umbrella header "Pods-SoundNature-umbrella.h"
+
+  export *
+  module * { export * }
+}

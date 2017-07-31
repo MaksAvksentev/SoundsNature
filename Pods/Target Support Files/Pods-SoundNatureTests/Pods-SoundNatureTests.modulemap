@@ -1,0 +1,6 @@
+framework module Pods_SoundNatureTests {
+  umbrella header "Pods-SoundNatureTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

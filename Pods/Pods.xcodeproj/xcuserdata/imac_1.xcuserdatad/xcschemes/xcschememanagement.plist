@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-SoundNature.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SoundNatureTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SoundNatureUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XLPagerTabStrip-XLPagerTabStrip.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XLPagerTabStrip.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>69FAFFA1C309AEAF4EB1CCAC6C1B1777</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D34B25ED4C36F9CD8AB357E42189536</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>851E90A9E99E00CC3ABA925BF906FFC7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>986F4DC37ADE0912BE90B8EB68437C7D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD7384931592D7DAA245CBA11FFD24B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
