@@ -7,17 +7,22 @@
 //
 
 import UIKit
-import XLPagerTabStrip
 
-class RandomViewController: UIViewController, IndicatorInfoProvider  {
+class RandomViewController: UIViewController {
 
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     override func viewDidLoad() {
+
         super.viewDidLoad()
 
     }
-
-    // MARK: - IndicatorInfoProvider
-    func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return IndicatorInfo(title: "Random", image: UIImage(named: "random"), highlightedImage: UIImage(named: "randomactive"))
+    
+    //MARK: - Private
+    private func configureCollectionView() {
+        
+        self.collectionView.register(SoundCollectionViewCell.nib(), forCellWithReuseIdentifier: SoundCollectionViewCell.className)
     }
+
+    
 }

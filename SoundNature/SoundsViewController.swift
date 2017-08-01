@@ -7,18 +7,11 @@
 //
 
 import UIKit
-import  XLPagerTabStrip
 
-class SoundsViewController: UIViewController, IndicatorInfoProvider  {
+class SoundsViewController: BaseSoundsViewController {
 
     override func viewDidLoad() {
         
         super.viewDidLoad()
-
-    }
-
-    // MARK: - IndicatorInfoProvider
-    func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return IndicatorInfo(title: "Sounds", image: UIImage(named: "sounds"), highlightedImage: UIImage(named: "soundactive"))
     }
 }

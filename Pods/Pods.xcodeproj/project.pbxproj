@@ -7,52 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0052DA0743E319D5C48F77017C2CAAB7 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167DA9D0F42DA1E13D2823DB4172FA5 /* BarView.swift */; };
+		048114649111F1DCB5691AA07EC33260 /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = CBEAF701768B963968C8F642FECA747A /* ButtonCell.xib */; };
 		0968FA9F1E687059C01BE9D7C8D559D1 /* Pods-SoundNatureUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 004D3D3ACB1575C80A645B0BE44467CD /* Pods-SoundNatureUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D6F367CF8A6F0521A4BB31218C2FA61 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04016E8BBEADE6BC563F0893A76F375C /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		146154E2BE1367FFA2B98207630B4F51 /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 692CB4E7CB310FBFA5EAE4235D044300 /* XLPagerTabStrip-dummy.m */; };
-		2360004D38D6A668778BE0239215CF83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		0BB476FE5E87E2702B9E1E75F4F8544F /* SimpleTabBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CFBF36F25EB44A511771B71BD7A6F4 /* SimpleTabBarStyle.swift */; };
+		1D9491AC1144B5297E102456AD567722 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D811F1DDAEFD5D23D01F953E35DF679E /* TwitterPagerTabStripViewController.swift */; };
+		21AF463C57CE9C8E23412110B9A61FC1 /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E53699D6FC349B015D977848A136C /* BarPagerTabStripViewController.swift */; };
 		2394BEF6CD9A71BA44D77A9E928CF7C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		2BE323145544206B6F19EBBA96991E43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		38F40C97703E96BE0D3793728ED91A84 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D09056B385C6845238E924C970E79039 /* FXPageControl.m */; };
-		4CD79FE4243901EF626970D7F1517CBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		5FE8E469DB806E46F6A3575BD445CD4D /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFD08E429420867ECCE4F9AA049280 /* BarPagerTabStripViewController.swift */; };
-		66094AA689489821B7AAC654BA6AC84C /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161ABE8133F59A707855E9EE8310869 /* PagerTabStripError.swift */; };
-		69A63E4CCC40178D04B5CD298AD413BC /* Pods-SoundNature-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C94FB4E08855F1CDDE1C6D68AB4F16 /* Pods-SoundNature-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F206DA0D88E268D85E1E5FE7A53058F /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301D861BD905564D1012FE57C3E3EB5 /* SegmentedPagerTabStripViewController.swift */; };
-		8192831992771798A04E42C68D475EB3 /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C21FB8930CECAB6B8676196CB548F80 /* PagerTabStripBehaviour.swift */; };
-		8F86017AE3313EC5A7727D27517D523D /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BEC7C99717FA6ECEE914F951BDE53F /* BaseButtonBarPagerTabStripViewController.swift */; };
-		9D8A2B39EFAFE13749E4F98E06F1FF55 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8274464CB4D29D6EECC27BAF1C67BAEF /* TwitterPagerTabStripViewController.swift */; };
-		A18C48853570F895C422D50783F9CCCA /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6A65D65B931B96BD9520A7C113DCE0 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5059B4754C1150A85E71A38F60ED9AC /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 345428615EB1A35D8020DA79FE22FDE7 /* XLPagerTabStrip.bundle */; };
-		AAFB47F73DF9EECD7BF6A7E417294404 /* Pods-SoundNature-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D21138C7A4056388B84EDD067D14BF2 /* Pods-SoundNature-dummy.m */; };
+		27DD8D8DF4B0AB96604A23231CE5340C /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491FDF36611620DDF02D486374397753 /* IndicatorInfo.swift */; };
+		289E87ED43C2D3BBF2911453326FEB9E /* Pods-SoundNature-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C94FB4E08855F1CDDE1C6D68AB4F16 /* Pods-SoundNature-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3495977C85E978BF197B822E60FADAAA /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFD2895BB821819E1891705D6602CA0 /* PagerTabStripViewController.swift */; };
+		3DAD18F82D141D29A21A79736700C2FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		42A5FAE37A5C2819FFC3BA9B99CCFE18 /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC75F8DCD3152E64765515FDEBCB52 /* XLPagerTabStrip-dummy.m */; };
+		4309B581B87964B51035551676C5EC33 /* SimpleTab-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2423EBFCAB83DFDE5687AEB7439D77BC /* SimpleTab-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53A96D8BDE5D8874C22822AE3F954E81 /* SimpleTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C17045F0616BD463977CC39AE423F4 /* SimpleTabBarController.swift */; };
+		58B51DD3E5D135C5D5C0CB0D881BECCD /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935A6FEDDCD9E72FB9EDDCCDEE06D569 /* PagerTabStripBehaviour.swift */; };
+		63214162BE5A43549111AF54CF43DCEC /* PopViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CECDF58E734D87042BDFFE6EDF007C /* PopViewTransition.swift */; };
+		65C8392FBA5B1B25CC41B1D915B396D1 /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAC64471FD6CF4A42ABCF7866865963 /* SegmentedPagerTabStripViewController.swift */; };
+		7604C38960A6972205CBAF6AA5EDF213 /* PopTabBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C8670F55E45AC74E124CD3C1D13C64 /* PopTabBarStyle.swift */; };
+		766A876128C2749E67D2046FB78A182E /* SimpleTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40869B4D97318D72CB035D2060D4CA2 /* SimpleTabBar.swift */; };
+		7DF100489A1E2835BE528172E00BDFC1 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D1428232A700F135C9914B407E5ACC8D /* FXPageControl.m */; };
+		81B4B46500B8D8EC6627F48BE8AB84FE /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6062A6D2FA262585FF15870A803BAB /* SwipeDirection.swift */; };
+		86064635272EA1B72965E4C90079C645 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		9525D9E3E1DC37107DF69C6E88167640 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 921B987E637B2800FE1DC9650A5C34DA /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A05FAD9AA0AB2619C12B637F0A714EAE /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEAF701768B963968C8F642FECA747A /* ButtonCell.xib */; };
+		A4D38DCBB3E0369BE4CF0D3265E16A86 /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E049075119DA98C8B500FC4F0050CBF /* ButtonBarViewCell.swift */; };
+		A8913689B3A238452528DFEB5ADACA2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A90A799DAF8CD5AF9155E8E0052BAA8C /* SimpleTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFB9C498B11CA96EBCB4D5E93FDF823 /* SimpleTabBarItem.swift */; };
+		AA37E6543EE328168F92D0CF2CB8DF4F /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1C8526350E36D68728EE8E69F8D18CEF /* XLPagerTabStrip.bundle */; };
+		AB2A01C837603D21B18942E307D5A182 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		AF60C6029B1C58FE4C1C05F670CBFC3C /* Pods-SoundNatureTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 097870B49A5BAE6096823A3FDCB98C8F /* Pods-SoundNatureTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B81F7CA60066E2644F3855DBCA7FDE85 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D78BC42755EDEA41D0EFE7EAD90B61 /* ButtonBarPagerTabStripViewController.swift */; };
-		B880F5046D089F9482CAC27371D30CB0 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D2E2FB5303F753253069714A5917E /* SwipeDirection.swift */; };
-		C74DAA24AAB1823CA0E043CEAC10119D /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A921414DBE7B40C87D931CD436D5DB /* ButtonBarViewCell.swift */; };
-		D036C04737D73D3BE0BA0B252719500B /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */; };
+		B0048930FA4F53AC951FC176A6B2CC3C /* CrossFadeViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80129EED4EA229F48C5E09DC40583A /* CrossFadeViewTransition.swift */; };
+		C0A196D7DA4E643BD6BADD374279E0FE /* Pods-SoundNature-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D21138C7A4056388B84EDD067D14BF2 /* Pods-SoundNature-dummy.m */; };
+		C546ACC63FED5F9614773F3D1933D8B4 /* SimpleTab-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1EA9A9CC078A29674A2D3B4EEDADCE /* SimpleTab-dummy.m */; };
 		D1B4CFD0A1FF5EC8FA4C14061706D6AF /* Pods-SoundNatureUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F03831DC95F6E0A826A99954E475B0 /* Pods-SoundNatureUITests-dummy.m */; };
-		D684C436541B574DDB6C1F5B3272CDAD /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A40B367F2560B8B7294DD87BF9B0AFF /* ButtonBarView.swift */; };
-		DB9E70C203ED14FFAA2A0C4D7E984629 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */; };
-		DBD8BFC0AA31C81272556FCEB0AE4F28 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEB9986798D80D513012E735025E54 /* IndicatorInfo.swift */; };
+		D2ED550621974D2C34DDB5C534569623 /* ElegantTabBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21E2299FAF219E4ADACDE3766872FC6 /* ElegantTabBarStyle.swift */; };
+		E22991F66F91199CA019D1982039BD0F /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908D87B300FC4278F5CE6F6081175D89 /* PagerTabStripError.swift */; };
 		E9CE689640D06A66EC44E0797BADEFC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F094E06FC2E35C12E2F698136FADFB29 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC3F1BAE15279CFEB7901ECB004679 /* ButtonBarPagerTabStripViewController.swift */; };
+		F121A56D04CA63A7748CB70009C8B8F8 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABB1FF0D048EEABD4B85878A001E72D /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6E63C236F99A7A50148797E83B1AD8E /* Pods-SoundNatureTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA01ED24AA8D7F132B2C8AE231431A9 /* Pods-SoundNatureTests-dummy.m */; };
-		F86163F8C2C6CDEACB730B35BA91A780 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0922A4C233956A14DF7FCDF2F584FACE /* PagerTabStripViewController.swift */; };
+		F975DC00C2156542AA559F995B9B0705 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2307CC52E04EB97DE8FB05396F99A1A5 /* ButtonBarView.swift */; };
+		FB2826725D92E91F27B46D7D3DAB1882 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A38A84E3497FF1258DADCB394A3C0 /* BarView.swift */; };
+		FE4101C1F1411AEBB57E2613E680B4E9 /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F803D743761823685AC8142E8B67C6E /* BaseButtonBarPagerTabStripViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B07A79638365E821D3B131D196DFD892 /* PBXContainerItemProxy */ = {
+		0707B2815B2D911D482FBD29ED9D8CD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 986F4DC37ADE0912BE90B8EB68437C7D;
+			remoteGlobalIDString = FBC168C7FB599A55413C3FB64EEFB3E5;
 			remoteInfo = XLPagerTabStrip;
 		};
-		C82EAA5D61291A178881730AF9CAE3F0 /* PBXContainerItemProxy */ = {
+		4161DDB173ECFE2B86871FAEED06B762 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 69FAFFA1C309AEAF4EB1CCAC6C1B1777;
+			remoteGlobalIDString = D9B3C6E785DA58B36951A3A9FA3275CE;
+			remoteInfo = SimpleTab;
+		};
+		BC0EBC77F2A770B78B5DCA9A4B911CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2AAE50ACB1F3A7E68F2A820637340F;
 			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
 		};
 /* End PBXContainerItemProxy section */
@@ -60,74 +78,95 @@
 /* Begin PBXFileReference section */
 		004D3D3ACB1575C80A645B0BE44467CD /* Pods-SoundNatureUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundNatureUITests-umbrella.h"; sourceTree = "<group>"; };
 		02EA0F9BCC550DC0736DBBB7957DDCB4 /* Pods-SoundNatureTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundNatureTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		04016E8BBEADE6BC563F0893A76F375C /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
 		041229121937CA1C7EDDF6C0E767AD0B /* Pods-SoundNatureTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundNatureTests-resources.sh"; sourceTree = "<group>"; };
-		0826D49C66473AB373DBE189F0DDFDB7 /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
 		090A659CD953C508FA7F3C0C62E5BFAA /* Pods-SoundNatureUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundNatureUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0922A4C233956A14DF7FCDF2F584FACE /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
 		097870B49A5BAE6096823A3FDCB98C8F /* Pods-SoundNatureTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundNatureTests-umbrella.h"; sourceTree = "<group>"; };
-		0BAFD08E429420867ECCE4F9AA049280 /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		0ABB1FF0D048EEABD4B85878A001E72D /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
 		131C1918543B2554C9848A52CF69502E /* Pods-SoundNatureTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundNatureTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14C3B9B9329A06D09ABD58B530FE6F15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178C407FAD23B0C0827691E4D2DCE3E9 /* Pods_SoundNatureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundNatureUITests.framework; path = "Pods-SoundNatureUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CC3F1BAE15279CFEB7901ECB004679 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		1A003FECC680502354728C975168D39B /* ResourceBundle-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		1C8526350E36D68728EE8E69F8D18CEF /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XLPagerTabStrip.bundle; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF4552BE70AFB1553A2489E574FF835 /* Pods-SoundNatureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundNatureTests.release.xcconfig"; sourceTree = "<group>"; };
-		2301D861BD905564D1012FE57C3E3EB5 /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		2307CC52E04EB97DE8FB05396F99A1A5 /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
 		23B1EA2250DC4865E662AA15BC2680EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2423EBFCAB83DFDE5687AEB7439D77BC /* SimpleTab-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleTab-umbrella.h"; sourceTree = "<group>"; };
 		284581A1F4A5B49A5DB749B855E0E9CC /* Pods-SoundNatureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundNatureUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2A31B8B8137DD5176D38697EFFD579B1 /* Pods-SoundNature-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundNature-resources.sh"; sourceTree = "<group>"; };
-		3167DA9D0F42DA1E13D2823DB4172FA5 /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
-		3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
-		345428615EB1A35D8020DA79FE22FDE7 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XLPagerTabStrip.bundle; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFB9C498B11CA96EBCB4D5E93FDF823 /* SimpleTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleTabBarItem.swift; path = Pod/Classes/SimpleTabBarItem.swift; sourceTree = "<group>"; };
+		2E049075119DA98C8B500FC4F0050CBF /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		2FB8274CD90207D51AEDDC92EA4FD3F5 /* SimpleTab.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleTab.xcconfig; sourceTree = "<group>"; };
 		346DD7B4713D4E3AC20EE1004A418641 /* Pods-SoundNatureUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundNatureUITests-frameworks.sh"; sourceTree = "<group>"; };
-		3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.xcconfig; sourceTree = "<group>"; };
+		36C8670F55E45AC74E124CD3C1D13C64 /* PopTabBarStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopTabBarStyle.swift; path = Pod/Classes/TabBarStyles/PopTabBarStyle.swift; sourceTree = "<group>"; };
+		3F80129EED4EA229F48C5E09DC40583A /* CrossFadeViewTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossFadeViewTransition.swift; path = Pod/Classes/ViewTransitions/CrossFadeViewTransition.swift; sourceTree = "<group>"; };
 		42036ADDFC496260156FE8D2257F199C /* Pods-SoundNatureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundNatureUITests.release.xcconfig"; sourceTree = "<group>"; };
 		42C94FB4E08855F1CDDE1C6D68AB4F16 /* Pods-SoundNature-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundNature-umbrella.h"; sourceTree = "<group>"; };
-		45905DB2F1553ADAA82F433157B02334 /* ResourceBundle-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
 		480E73FF0822B3EB3CE9A981CA83D996 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A6A65D65B931B96BD9520A7C113DCE0 /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
+		491FDF36611620DDF02D486374397753 /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
+		4AA4A58E23391FA817814F48D35F6960 /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
+		4CAC75F8DCD3152E64765515FDEBCB52 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
 		4F7F87B7CEE48C17E7D85FFD2FD62B8C /* Pods-SoundNature-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundNature-acknowledgements.plist"; sourceTree = "<group>"; };
+		53CECDF58E734D87042BDFFE6EDF007C /* PopViewTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopViewTransition.swift; path = Pod/Classes/ViewTransitions/PopViewTransition.swift; sourceTree = "<group>"; };
 		554EFAF4BA9CCACB270225EEA90FEA6C /* Pods-SoundNature-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundNature-frameworks.sh"; sourceTree = "<group>"; };
-		55BEC7C99717FA6ECEE914F951BDE53F /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
 		5B8690C23C84D90F5736A7A32253CF6B /* Pods-SoundNature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundNature.debug.xcconfig"; sourceTree = "<group>"; };
 		5D21138C7A4056388B84EDD067D14BF2 /* Pods-SoundNature-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundNature-dummy.m"; sourceTree = "<group>"; };
-		684D2E2FB5303F753253069714A5917E /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
-		692CB4E7CB310FBFA5EAE4235D044300 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
-		6A40B367F2560B8B7294DD87BF9B0AFF /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
-		6C21FB8930CECAB6B8676196CB548F80 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
-		6CF160BD4D3B5312AB41DA99CC078A94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7161ABE8133F59A707855E9EE8310869 /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
-		79513378BAC524FA41E9020231E4AFC5 /* Pods_SoundNatureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundNatureUITests.framework; path = "Pods-SoundNatureUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EFBC6F6A1145223640070A7581C92CF /* Pods_SoundNatureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundNatureTests.framework; path = "Pods-SoundNatureTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8274464CB4D29D6EECC27BAF1C67BAEF /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		85A921414DBE7B40C87D931CD436D5DB /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		6B6062A6D2FA262585FF15870A803BAB /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		6BAC64471FD6CF4A42ABCF7866865963 /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		7058E983C37A64473243298C0E51D3C4 /* Pods_SoundNatureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundNatureTests.framework; path = "Pods-SoundNatureTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F803D743761823685AC8142E8B67C6E /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		807C9644B7042DF994177995DCBB1E32 /* SimpleTab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleTab.framework; path = SimpleTab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D1765B03575A7D3D026161301AB0D3 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLPagerTabStrip.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F03831DC95F6E0A826A99954E475B0 /* Pods-SoundNatureUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundNatureUITests-dummy.m"; sourceTree = "<group>"; };
 		8C97DF8245EDA4BBEB9A457AF342C574 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908D87B300FC4278F5CE6F6081175D89 /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
+		921B987E637B2800FE1DC9650A5C34DA /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
+		935A6FEDDCD9E72FB9EDDCCDEE06D569 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AFEB9986798D80D513012E735025E54 /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
 		9E1AFBCDD00DA138458DEFCE1034D79B /* Pods-SoundNatureTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundNatureTests-frameworks.sh"; sourceTree = "<group>"; };
+		9F323D8F9F8E1D34472AA100846370BF /* SimpleTab-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleTab-prefix.pch"; sourceTree = "<group>"; };
 		9FDA6F48F3DA3D5E8C3690309E4BC07B /* Pods-SoundNatureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundNatureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A69F7DBD3E0170072E1712D4DF408C19 /* XLPagerTabStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.xcconfig; sourceTree = "<group>"; };
 		A9A3F870640F521ADB8A237478FDBAA4 /* Pods-SoundNatureUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundNatureUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AD8D2CC401B5BA01748972F1E99A48BB /* Pods-SoundNatureUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SoundNatureUITests.modulemap"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B90A38A84E3497FF1258DADCB394A3C0 /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
+		B98E53699D6FC349B015D977848A136C /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		BAFD2895BB821819E1891705D6602CA0 /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
+		BB1EA9A9CC078A29674A2D3B4EEDADCE /* SimpleTab-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleTab-dummy.m"; sourceTree = "<group>"; };
 		BEA01ED24AA8D7F132B2C8AE231431A9 /* Pods-SoundNatureTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundNatureTests-dummy.m"; sourceTree = "<group>"; };
+		C21E2299FAF219E4ADACDE3766872FC6 /* ElegantTabBarStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElegantTabBarStyle.swift; path = Pod/Classes/TabBarStyles/ElegantTabBarStyle.swift; sourceTree = "<group>"; };
+		C22AA6B7A3A486B742FF7FB02F160AD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32D3E8A717F742762140616B37B0264 /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
 		C3C9EEF1B01C1D4FA68DAAA8071A6D94 /* Pods-SoundNatureUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundNatureUITests-resources.sh"; sourceTree = "<group>"; };
-		D09056B385C6845238E924C970E79039 /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
+		CBEAF701768B963968C8F642FECA747A /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
+		D1428232A700F135C9914B407E5ACC8D /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
+		D2E533419AA20F3D6B8E8DE936F60450 /* SimpleTab.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleTab.modulemap; sourceTree = "<group>"; };
+		D40869B4D97318D72CB035D2060D4CA2 /* SimpleTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleTabBar.swift; path = Pod/Classes/SimpleTabBar.swift; sourceTree = "<group>"; };
+		D7C17045F0616BD463977CC39AE423F4 /* SimpleTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleTabBarController.swift; path = Pod/Classes/SimpleTabBarController.swift; sourceTree = "<group>"; };
 		D7DFCA81F5F7EDC590B96A4394E992D4 /* Pods-SoundNature-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundNature-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7E3DD75029AB2A453CD27761C761C26 /* Pods_SoundNature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundNature.framework; path = "Pods-SoundNature.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D811F1DDAEFD5D23D01F953E35DF679E /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D8AFC759588DEC6FA98DAD01194CF3A5 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLPagerTabStrip.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35EE30E9E572498774D3ED9505C35A9 /* Pods-SoundNature.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SoundNature.modulemap"; sourceTree = "<group>"; };
-		E3D78BC42755EDEA41D0EFE7EAD90B61 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		E4CFBF36F25EB44A511771B71BD7A6F4 /* SimpleTabBarStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleTabBarStyle.swift; path = Pod/Classes/TabBarStyles/SimpleTabBarStyle.swift; sourceTree = "<group>"; };
 		F133B7B5ABF923979A770CDC12D2E163 /* Pods-SoundNatureTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SoundNatureTests.modulemap"; sourceTree = "<group>"; };
-		F5921A436096714E2ED6336756325CFE /* Pods_SoundNature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundNature.framework; path = "Pods-SoundNature.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D0853F219484EDC5EEAE76D740DC0D /* Pods-SoundNature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundNature.release.xcconfig"; sourceTree = "<group>"; };
-		FCCEEFEBEB960CD33611E034571E6283 /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35E4212103D1AF3FCAC52FF031FD8AC9 /* Frameworks */ = {
+		10F5B7CB5799FB0A1C40A18D424F9B66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2360004D38D6A668778BE0239215CF83 /* Foundation.framework in Frameworks */,
-				2BE323145544206B6F19EBBA96991E43 /* UIKit.framework in Frameworks */,
+				86064635272EA1B72965E4C90079C645 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1197A35BCF2A57E5E7F2CB4E3C2164AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,37 +186,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52B71B9A46CBC4C69E4ECFDAC1A128F7 /* Frameworks */ = {
+		92DA86A929B14AE4883259DA0424B62F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8913689B3A238452528DFEB5ADACA2E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEF544B3227D8CB54023E2ADA29C2E73 /* Frameworks */ = {
+		E647565FAAB78744F3C9926AB2109B7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD79FE4243901EF626970D7F1517CBE /* Foundation.framework in Frameworks */,
+				AB2A01C837603D21B18942E307D5A182 /* Foundation.framework in Frameworks */,
+				3DAD18F82D141D29A21A79736700C2FF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AFC43F0735E7BB026047EDB14228F39 /* Support Files */ = {
+		146D5405ED6EDE666DDB76E0B757EA17 /* XLPagerTabStrip */ = {
 			isa = PBXGroup;
 			children = (
-				6CF160BD4D3B5312AB41DA99CC078A94 /* Info.plist */,
-				45905DB2F1553ADAA82F433157B02334 /* ResourceBundle-XLPagerTabStrip-Info.plist */,
-				0826D49C66473AB373DBE189F0DDFDB7 /* XLPagerTabStrip.modulemap */,
-				3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */,
-				692CB4E7CB310FBFA5EAE4235D044300 /* XLPagerTabStrip-dummy.m */,
-				FCCEEFEBEB960CD33611E034571E6283 /* XLPagerTabStrip-prefix.pch */,
-				04016E8BBEADE6BC563F0893A76F375C /* XLPagerTabStrip-umbrella.h */,
+				B98E53699D6FC349B015D977848A136C /* BarPagerTabStripViewController.swift */,
+				B90A38A84E3497FF1258DADCB394A3C0 /* BarView.swift */,
+				7F803D743761823685AC8142E8B67C6E /* BaseButtonBarPagerTabStripViewController.swift */,
+				18CC3F1BAE15279CFEB7901ECB004679 /* ButtonBarPagerTabStripViewController.swift */,
+				2307CC52E04EB97DE8FB05396F99A1A5 /* ButtonBarView.swift */,
+				2E049075119DA98C8B500FC4F0050CBF /* ButtonBarViewCell.swift */,
+				CBEAF701768B963968C8F642FECA747A /* ButtonCell.xib */,
+				0ABB1FF0D048EEABD4B85878A001E72D /* FXPageControl.h */,
+				D1428232A700F135C9914B407E5ACC8D /* FXPageControl.m */,
+				491FDF36611620DDF02D486374397753 /* IndicatorInfo.swift */,
+				935A6FEDDCD9E72FB9EDDCCDEE06D569 /* PagerTabStripBehaviour.swift */,
+				908D87B300FC4278F5CE6F6081175D89 /* PagerTabStripError.swift */,
+				BAFD2895BB821819E1891705D6602CA0 /* PagerTabStripViewController.swift */,
+				6BAC64471FD6CF4A42ABCF7866865963 /* SegmentedPagerTabStripViewController.swift */,
+				6B6062A6D2FA262585FF15870A803BAB /* SwipeDirection.swift */,
+				D811F1DDAEFD5D23D01F953E35DF679E /* TwitterPagerTabStripViewController.swift */,
+				4B3A1C59F8806B8F36E3EA37AD15B148 /* Resources */,
+				29101FDD8D0A7FEB0335C7785F42C1AC /* Support Files */,
+			);
+			name = XLPagerTabStrip;
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+		29101FDD8D0A7FEB0335C7785F42C1AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C22AA6B7A3A486B742FF7FB02F160AD7 /* Info.plist */,
+				1A003FECC680502354728C975168D39B /* ResourceBundle-XLPagerTabStrip-Info.plist */,
+				4AA4A58E23391FA817814F48D35F6960 /* XLPagerTabStrip.modulemap */,
+				A69F7DBD3E0170072E1712D4DF408C19 /* XLPagerTabStrip.xcconfig */,
+				4CAC75F8DCD3152E64765515FDEBCB52 /* XLPagerTabStrip-dummy.m */,
+				C32D3E8A717F742762140616B37B0264 /* XLPagerTabStrip-prefix.pch */,
+				921B987E637B2800FE1DC9650A5C34DA /* XLPagerTabStrip-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/XLPagerTabStrip";
+			sourceTree = "<group>";
+		};
+		2D817216E6ED4F1E375B473A58E39F38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD99D046C060E5A3109A9421D8C74983 /* SimpleTab */,
+				146D5405ED6EDE666DDB76E0B757EA17 /* XLPagerTabStrip */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -195,6 +271,13 @@
 				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		4B3A1C59F8806B8F36E3EA37AD15B148 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		689EF714FED743E51761B072BBB7C78C /* Pods-SoundNature */ = {
@@ -233,35 +316,15 @@
 			path = "Target Support Files/Pods-SoundNatureUITests";
 			sourceTree = "<group>";
 		};
-		6C06F371250A2E949F1FBD9748674205 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F5921A436096714E2ED6336756325CFE /* Pods_SoundNature.framework */,
-				7EFBC6F6A1145223640070A7581C92CF /* Pods_SoundNatureTests.framework */,
-				79513378BAC524FA41E9020231E4AFC5 /* Pods_SoundNatureUITests.framework */,
-				345428615EB1A35D8020DA79FE22FDE7 /* XLPagerTabStrip.bundle */,
-				D8AFC759588DEC6FA98DAD01194CF3A5 /* XLPagerTabStrip.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				9AE3A07843C8C778ED30586199E24910 /* Pods */,
-				6C06F371250A2E949F1FBD9748674205 /* Products */,
+				2D817216E6ED4F1E375B473A58E39F38 /* Pods */,
+				C26184F4CE56714E6F86A9E36C7E1034 /* Products */,
 				B0865B0B34F3CAE717F16F572F771640 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9AE3A07843C8C778ED30586199E24910 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9CFC1CBA04529E35BB275B9E08F32A8D /* XLPagerTabStrip */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		9C7C121C61B0E2EB2C40EC936864C786 /* Pods-SoundNatureTests */ = {
@@ -282,32 +345,6 @@
 			path = "Target Support Files/Pods-SoundNatureTests";
 			sourceTree = "<group>";
 		};
-		9CFC1CBA04529E35BB275B9E08F32A8D /* XLPagerTabStrip */ = {
-			isa = PBXGroup;
-			children = (
-				0BAFD08E429420867ECCE4F9AA049280 /* BarPagerTabStripViewController.swift */,
-				3167DA9D0F42DA1E13D2823DB4172FA5 /* BarView.swift */,
-				55BEC7C99717FA6ECEE914F951BDE53F /* BaseButtonBarPagerTabStripViewController.swift */,
-				E3D78BC42755EDEA41D0EFE7EAD90B61 /* ButtonBarPagerTabStripViewController.swift */,
-				6A40B367F2560B8B7294DD87BF9B0AFF /* ButtonBarView.swift */,
-				85A921414DBE7B40C87D931CD436D5DB /* ButtonBarViewCell.swift */,
-				3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */,
-				4A6A65D65B931B96BD9520A7C113DCE0 /* FXPageControl.h */,
-				D09056B385C6845238E924C970E79039 /* FXPageControl.m */,
-				9AFEB9986798D80D513012E735025E54 /* IndicatorInfo.swift */,
-				6C21FB8930CECAB6B8676196CB548F80 /* PagerTabStripBehaviour.swift */,
-				7161ABE8133F59A707855E9EE8310869 /* PagerTabStripError.swift */,
-				0922A4C233956A14DF7FCDF2F584FACE /* PagerTabStripViewController.swift */,
-				2301D861BD905564D1012FE57C3E3EB5 /* SegmentedPagerTabStripViewController.swift */,
-				684D2E2FB5303F753253069714A5917E /* SwipeDirection.swift */,
-				8274464CB4D29D6EECC27BAF1C67BAEF /* TwitterPagerTabStripViewController.swift */,
-				B08F44A04415396C5E21D2DDAEDE5987 /* Resources */,
-				1AFC43F0735E7BB026047EDB14228F39 /* Support Files */,
-			);
-			name = XLPagerTabStrip;
-			path = XLPagerTabStrip;
-			sourceTree = "<group>";
-		};
 		B0865B0B34F3CAE717F16F572F771640 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,21 +355,67 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B08F44A04415396C5E21D2DDAEDE5987 /* Resources */ = {
+		C26184F4CE56714E6F86A9E36C7E1034 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				D7E3DD75029AB2A453CD27761C761C26 /* Pods_SoundNature.framework */,
+				7058E983C37A64473243298C0E51D3C4 /* Pods_SoundNatureTests.framework */,
+				178C407FAD23B0C0827691E4D2DCE3E9 /* Pods_SoundNatureUITests.framework */,
+				807C9644B7042DF994177995DCBB1E32 /* SimpleTab.framework */,
+				1C8526350E36D68728EE8E69F8D18CEF /* XLPagerTabStrip.bundle */,
+				81D1765B03575A7D3D026161301AB0D3 /* XLPagerTabStrip.framework */,
 			);
-			name = Resources;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD99D046C060E5A3109A9421D8C74983 /* SimpleTab */ = {
+			isa = PBXGroup;
+			children = (
+				3F80129EED4EA229F48C5E09DC40583A /* CrossFadeViewTransition.swift */,
+				C21E2299FAF219E4ADACDE3766872FC6 /* ElegantTabBarStyle.swift */,
+				36C8670F55E45AC74E124CD3C1D13C64 /* PopTabBarStyle.swift */,
+				53CECDF58E734D87042BDFFE6EDF007C /* PopViewTransition.swift */,
+				D40869B4D97318D72CB035D2060D4CA2 /* SimpleTabBar.swift */,
+				D7C17045F0616BD463977CC39AE423F4 /* SimpleTabBarController.swift */,
+				2DFB9C498B11CA96EBCB4D5E93FDF823 /* SimpleTabBarItem.swift */,
+				E4CFBF36F25EB44A511771B71BD7A6F4 /* SimpleTabBarStyle.swift */,
+				F7BE3E1A62F9E778550F8AC9FE80F01E /* Support Files */,
+			);
+			name = SimpleTab;
+			path = SimpleTab;
+			sourceTree = "<group>";
+		};
+		F7BE3E1A62F9E778550F8AC9FE80F01E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14C3B9B9329A06D09ABD58B530FE6F15 /* Info.plist */,
+				D2E533419AA20F3D6B8E8DE936F60450 /* SimpleTab.modulemap */,
+				2FB8274CD90207D51AEDDC92EA4FD3F5 /* SimpleTab.xcconfig */,
+				BB1EA9A9CC078A29674A2D3B4EEDADCE /* SimpleTab-dummy.m */,
+				9F323D8F9F8E1D34472AA100846370BF /* SimpleTab-prefix.pch */,
+				2423EBFCAB83DFDE5687AEB7439D77BC /* SimpleTab-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimpleTab";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		656EF9AC6810F90D024AA5DCE79A053F /* Headers */ = {
+		3E5D1536C66DAED43372394D01BB1714 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69A63E4CCC40178D04B5CD298AD413BC /* Pods-SoundNature-umbrella.h in Headers */,
+				4309B581B87964B51035551676C5EC33 /* SimpleTab-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E555C38DAA119CC1D2FC1A1C80F5A87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F121A56D04CA63A7748CB70009C8B8F8 /* FXPageControl.h in Headers */,
+				9525D9E3E1DC37107DF69C6E88167640 /* XLPagerTabStrip-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,15 +427,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2E8AE8ABE9BB5EDDE9C4D233CA23FB2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A18C48853570F895C422D50783F9CCCA /* FXPageControl.h in Headers */,
-				0D6F367CF8A6F0521A4BB31218C2FA61 /* XLPagerTabStrip-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D487204F3CD347CAB751D31B22CAE8D6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,42 +435,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3AEBC6EC85DD271F14912B48EBE70AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289E87ED43C2D3BBF2911453326FEB9E /* Pods-SoundNature-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		69FAFFA1C309AEAF4EB1CCAC6C1B1777 /* XLPagerTabStrip-XLPagerTabStrip */ = {
+		50AB91BA98CB148EACE5F3F5441EDEAD /* Pods-SoundNature */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47D009CFE79F1E0C4C4E7479530672D2 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildConfigurationList = C44A8067C8257D9D6F1AADC042D7705A /* Build configuration list for PBXNativeTarget "Pods-SoundNature" */;
 			buildPhases = (
-				989BB7D1EA2FDC96B696E132CB09E8B0 /* Sources */,
-				52B71B9A46CBC4C69E4ECFDAC1A128F7 /* Frameworks */,
-				476DB424BEF9356A8C5C397C3ABFED45 /* Resources */,
+				55D228A83508F41B350828166CFFBB61 /* Sources */,
+				92DA86A929B14AE4883259DA0424B62F /* Frameworks */,
+				E3AEBC6EC85DD271F14912B48EBE70AC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "XLPagerTabStrip-XLPagerTabStrip";
-			productName = "XLPagerTabStrip-XLPagerTabStrip";
-			productReference = 345428615EB1A35D8020DA79FE22FDE7 /* XLPagerTabStrip.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		6D34B25ED4C36F9CD8AB357E42189536 /* Pods-SoundNature */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E4021E65F88430306AE33EAC2A279D79 /* Build configuration list for PBXNativeTarget "Pods-SoundNature" */;
-			buildPhases = (
-				4822CFE2BC59AE880EBE8FEAD77B5837 /* Sources */,
-				AEF544B3227D8CB54023E2ADA29C2E73 /* Frameworks */,
-				656EF9AC6810F90D024AA5DCE79A053F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0A99704EBAB53187629A95276FE9E0FE /* PBXTargetDependency */,
+				AD16F9852BBD120593143B10526AA428 /* PBXTargetDependency */,
+				79A8814CB6B2043FF35C996ED81CA381 /* PBXTargetDependency */,
 			);
 			name = "Pods-SoundNature";
 			productName = "Pods-SoundNature";
-			productReference = F5921A436096714E2ED6336756325CFE /* Pods_SoundNature.framework */;
+			productReference = D7E3DD75029AB2A453CD27761C761C26 /* Pods_SoundNature.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		851E90A9E99E00CC3ABA925BF906FFC7 /* Pods-SoundNatureUITests */ = {
@@ -413,26 +479,24 @@
 			);
 			name = "Pods-SoundNatureUITests";
 			productName = "Pods-SoundNatureUITests";
-			productReference = 79513378BAC524FA41E9020231E4AFC5 /* Pods_SoundNatureUITests.framework */;
+			productReference = 178C407FAD23B0C0827691E4D2DCE3E9 /* Pods_SoundNatureUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		986F4DC37ADE0912BE90B8EB68437C7D /* XLPagerTabStrip */ = {
+		D9B3C6E785DA58B36951A3A9FA3275CE /* SimpleTab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D135F4305BCFD88414828DF084AE298 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildConfigurationList = BA6A569893007DA849E84EE13501B97F /* Build configuration list for PBXNativeTarget "SimpleTab" */;
 			buildPhases = (
-				68CE3C3F7DFC5E481A2A96AE2D4158F5 /* Sources */,
-				35E4212103D1AF3FCAC52FF031FD8AC9 /* Frameworks */,
-				7F1EEFFE0A197676644F4C513C491AB3 /* Resources */,
-				A2E8AE8ABE9BB5EDDE9C4D233CA23FB2 /* Headers */,
+				8C98D63B1F27311DAE1E6FBA0564F2B9 /* Sources */,
+				10F5B7CB5799FB0A1C40A18D424F9B66 /* Frameworks */,
+				3E5D1536C66DAED43372394D01BB1714 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				327CE94C3AAA46A0036D9B5495ED96A2 /* PBXTargetDependency */,
 			);
-			name = XLPagerTabStrip;
-			productName = XLPagerTabStrip;
-			productReference = D8AFC759588DEC6FA98DAD01194CF3A5 /* XLPagerTabStrip.framework */;
+			name = SimpleTab;
+			productName = SimpleTab;
+			productReference = 807C9644B7042DF994177995DCBB1E32 /* SimpleTab.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD7384931592D7DAA245CBA11FFD24B7 /* Pods-SoundNatureTests */ = {
@@ -449,7 +513,43 @@
 			);
 			name = "Pods-SoundNatureTests";
 			productName = "Pods-SoundNatureTests";
-			productReference = 7EFBC6F6A1145223640070A7581C92CF /* Pods_SoundNatureTests.framework */;
+			productReference = 7058E983C37A64473243298C0E51D3C4 /* Pods_SoundNatureTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE2AAE50ACB1F3A7E68F2A820637340F /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D9E4C22F6A1D8E4853BD98AE3527ED /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				8843356948440CD078C3773562C5A8F4 /* Sources */,
+				1197A35BCF2A57E5E7F2CB4E3C2164AA /* Frameworks */,
+				DDF06D4467484FD1153E0BFB866D5AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			productName = "XLPagerTabStrip-XLPagerTabStrip";
+			productReference = 1C8526350E36D68728EE8E69F8D18CEF /* XLPagerTabStrip.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FBC168C7FB599A55413C3FB64EEFB3E5 /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FECDC59D39EAE9C1E56C8BC2A6B679 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				CAA95262FD0591BAC49E54AAD6921116 /* Sources */,
+				E647565FAAB78744F3C9926AB2109B7B /* Frameworks */,
+				AA38C65660C97B1BB32E0AD63BC0880F /* Resources */,
+				6E555C38DAA119CC1D2FC1A1C80F5A87 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2B3CE50A7A022B5282E4315DAC8551 /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = 81D1765B03575A7D3D026161301AB0D3 /* XLPagerTabStrip.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -469,33 +569,34 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6C06F371250A2E949F1FBD9748674205 /* Products */;
+			productRefGroup = C26184F4CE56714E6F86A9E36C7E1034 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D34B25ED4C36F9CD8AB357E42189536 /* Pods-SoundNature */,
+				50AB91BA98CB148EACE5F3F5441EDEAD /* Pods-SoundNature */,
 				DD7384931592D7DAA245CBA11FFD24B7 /* Pods-SoundNatureTests */,
 				851E90A9E99E00CC3ABA925BF906FFC7 /* Pods-SoundNatureUITests */,
-				986F4DC37ADE0912BE90B8EB68437C7D /* XLPagerTabStrip */,
-				69FAFFA1C309AEAF4EB1CCAC6C1B1777 /* XLPagerTabStrip-XLPagerTabStrip */,
+				D9B3C6E785DA58B36951A3A9FA3275CE /* SimpleTab */,
+				FBC168C7FB599A55413C3FB64EEFB3E5 /* XLPagerTabStrip */,
+				EE2AAE50ACB1F3A7E68F2A820637340F /* XLPagerTabStrip-XLPagerTabStrip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		476DB424BEF9356A8C5C397C3ABFED45 /* Resources */ = {
+		AA38C65660C97B1BB32E0AD63BC0880F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB9E70C203ED14FFAA2A0C4D7E984629 /* ButtonCell.xib in Resources */,
+				AA37E6543EE328168F92D0CF2CB8DF4F /* XLPagerTabStrip.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F1EEFFE0A197676644F4C513C491AB3 /* Resources */ = {
+		DDF06D4467484FD1153E0BFB866D5AA1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5059B4754C1150A85E71A38F60ED9AC /* XLPagerTabStrip.bundle in Resources */,
+				A05FAD9AA0AB2619C12B637F0A714EAE /* ButtonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,41 +611,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4822CFE2BC59AE880EBE8FEAD77B5837 /* Sources */ = {
+		55D228A83508F41B350828166CFFBB61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAFB47F73DF9EECD7BF6A7E417294404 /* Pods-SoundNature-dummy.m in Sources */,
+				C0A196D7DA4E643BD6BADD374279E0FE /* Pods-SoundNature-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68CE3C3F7DFC5E481A2A96AE2D4158F5 /* Sources */ = {
+		8843356948440CD078C3773562C5A8F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FE8E469DB806E46F6A3575BD445CD4D /* BarPagerTabStripViewController.swift in Sources */,
-				0052DA0743E319D5C48F77017C2CAAB7 /* BarView.swift in Sources */,
-				8F86017AE3313EC5A7727D27517D523D /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
-				B81F7CA60066E2644F3855DBCA7FDE85 /* ButtonBarPagerTabStripViewController.swift in Sources */,
-				D684C436541B574DDB6C1F5B3272CDAD /* ButtonBarView.swift in Sources */,
-				C74DAA24AAB1823CA0E043CEAC10119D /* ButtonBarViewCell.swift in Sources */,
-				D036C04737D73D3BE0BA0B252719500B /* ButtonCell.xib in Sources */,
-				38F40C97703E96BE0D3793728ED91A84 /* FXPageControl.m in Sources */,
-				DBD8BFC0AA31C81272556FCEB0AE4F28 /* IndicatorInfo.swift in Sources */,
-				8192831992771798A04E42C68D475EB3 /* PagerTabStripBehaviour.swift in Sources */,
-				66094AA689489821B7AAC654BA6AC84C /* PagerTabStripError.swift in Sources */,
-				F86163F8C2C6CDEACB730B35BA91A780 /* PagerTabStripViewController.swift in Sources */,
-				6F206DA0D88E268D85E1E5FE7A53058F /* SegmentedPagerTabStripViewController.swift in Sources */,
-				B880F5046D089F9482CAC27371D30CB0 /* SwipeDirection.swift in Sources */,
-				9D8A2B39EFAFE13749E4F98E06F1FF55 /* TwitterPagerTabStripViewController.swift in Sources */,
-				146154E2BE1367FFA2B98207630B4F51 /* XLPagerTabStrip-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		989BB7D1EA2FDC96B696E132CB09E8B0 /* Sources */ = {
+		8C98D63B1F27311DAE1E6FBA0564F2B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0048930FA4F53AC951FC176A6B2CC3C /* CrossFadeViewTransition.swift in Sources */,
+				D2ED550621974D2C34DDB5C534569623 /* ElegantTabBarStyle.swift in Sources */,
+				7604C38960A6972205CBAF6AA5EDF213 /* PopTabBarStyle.swift in Sources */,
+				63214162BE5A43549111AF54CF43DCEC /* PopViewTransition.swift in Sources */,
+				C546ACC63FED5F9614773F3D1933D8B4 /* SimpleTab-dummy.m in Sources */,
+				766A876128C2749E67D2046FB78A182E /* SimpleTabBar.swift in Sources */,
+				53A96D8BDE5D8874C22822AE3F954E81 /* SimpleTabBarController.swift in Sources */,
+				A90A799DAF8CD5AF9155E8E0052BAA8C /* SimpleTabBarItem.swift in Sources */,
+				0BB476FE5E87E2702B9E1E75F4F8544F /* SimpleTabBarStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,20 +650,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CAA95262FD0591BAC49E54AAD6921116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AF463C57CE9C8E23412110B9A61FC1 /* BarPagerTabStripViewController.swift in Sources */,
+				FB2826725D92E91F27B46D7D3DAB1882 /* BarView.swift in Sources */,
+				FE4101C1F1411AEBB57E2613E680B4E9 /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				F094E06FC2E35C12E2F698136FADFB29 /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				F975DC00C2156542AA559F995B9B0705 /* ButtonBarView.swift in Sources */,
+				A4D38DCBB3E0369BE4CF0D3265E16A86 /* ButtonBarViewCell.swift in Sources */,
+				048114649111F1DCB5691AA07EC33260 /* ButtonCell.xib in Sources */,
+				7DF100489A1E2835BE528172E00BDFC1 /* FXPageControl.m in Sources */,
+				27DD8D8DF4B0AB96604A23231CE5340C /* IndicatorInfo.swift in Sources */,
+				58B51DD3E5D135C5D5C0CB0D881BECCD /* PagerTabStripBehaviour.swift in Sources */,
+				E22991F66F91199CA019D1982039BD0F /* PagerTabStripError.swift in Sources */,
+				3495977C85E978BF197B822E60FADAAA /* PagerTabStripViewController.swift in Sources */,
+				65C8392FBA5B1B25CC41B1D915B396D1 /* SegmentedPagerTabStripViewController.swift in Sources */,
+				81B4B46500B8D8EC6627F48BE8AB84FE /* SwipeDirection.swift in Sources */,
+				1D9491AC1144B5297E102456AD567722 /* TwitterPagerTabStripViewController.swift in Sources */,
+				42A5FAE37A5C2819FFC3BA9B99CCFE18 /* XLPagerTabStrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A99704EBAB53187629A95276FE9E0FE /* PBXTargetDependency */ = {
+		79A8814CB6B2043FF35C996ED81CA381 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XLPagerTabStrip;
-			target = 986F4DC37ADE0912BE90B8EB68437C7D /* XLPagerTabStrip */;
-			targetProxy = B07A79638365E821D3B131D196DFD892 /* PBXContainerItemProxy */;
+			target = FBC168C7FB599A55413C3FB64EEFB3E5 /* XLPagerTabStrip */;
+			targetProxy = 0707B2815B2D911D482FBD29ED9D8CD2 /* PBXContainerItemProxy */;
 		};
-		327CE94C3AAA46A0036D9B5495ED96A2 /* PBXTargetDependency */ = {
+		AB2B3CE50A7A022B5282E4315DAC8551 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "XLPagerTabStrip-XLPagerTabStrip";
-			target = 69FAFFA1C309AEAF4EB1CCAC6C1B1777 /* XLPagerTabStrip-XLPagerTabStrip */;
-			targetProxy = C82EAA5D61291A178881730AF9CAE3F0 /* PBXContainerItemProxy */;
+			target = EE2AAE50ACB1F3A7E68F2A820637340F /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = BC0EBC77F2A770B78B5DCA9A4B911CB3 /* PBXContainerItemProxy */;
+		};
+		AD16F9852BBD120593143B10526AA428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleTab;
+			target = D9B3C6E785DA58B36951A3A9FA3275CE /* SimpleTab */;
+			targetProxy = 4161DDB173ECFE2B86871FAEED06B762 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -658,7 +781,7 @@
 			};
 			name = Debug;
 		};
-		2DFA98AD0BED8304C575DEAD5294332B /* Debug */ = {
+		2CEBE9DC4914D74840974B2EB1461B3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B8690C23C84D90F5736A7A32253CF6B /* Pods-SoundNature.debug.xcconfig */;
 			buildSettings = {
@@ -697,7 +820,7 @@
 			};
 			name = Debug;
 		};
-		3603A5D51866829274AB152AB9FF2DEC /* Release */ = {
+		3549AD1C31B50A5306D19863F97D8C10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8D0853F219484EDC5EEAE76D740DC0D /* Pods-SoundNature.release.xcconfig */;
 			buildSettings = {
@@ -732,6 +855,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38C547C33DFAD1A06E8C3488A129317B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69F7DBD3E0170072E1712D4DF408C19 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -770,6 +910,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		4285257329489B10D06D68C9FC415B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69F7DBD3E0170072E1712D4DF408C19 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		707B86CFB21B645E37109F39754D4051 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -851,9 +1008,43 @@
 			};
 			name = Debug;
 		};
-		9F7764CDFFDF8FE7396B497289841851 /* Debug */ = {
+		C56D7A5DC0CFCF442265C842BEBECD71 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */;
+			baseConfigurationReference = A69F7DBD3E0170072E1712D4DF408C19 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E02666CF2A6F9842E4DE8EA0C668E581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69F7DBD3E0170072E1712D4DF408C19 /* XLPagerTabStrip.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -883,23 +1074,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A3249D933366F09EC7BE153707F144B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = XLPagerTabStrip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -939,9 +1113,9 @@
 			};
 			name = Debug;
 		};
-		EFAFE937D39443571F57819EC061A177 /* Release */ = {
+		EA1D995B1C70E7C191180D2860DDEEAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */;
+			baseConfigurationReference = 2FB8274CD90207D51AEDDC92EA4FD3F5 /* SimpleTab.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -955,14 +1129,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleTab/SimpleTab-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleTab/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SimpleTab/SimpleTab.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = XLPagerTabStrip;
+				PRODUCT_NAME = SimpleTab;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -973,22 +1147,40 @@
 			};
 			name = Release;
 		};
-		F15E8044336FE1CEF035446A00957998 /* Release */ = {
+		F95254ECEA8A8C6F3C48965527699F2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */;
+			baseConfigurationReference = 2FB8274CD90207D51AEDDC92EA4FD3F5 /* SimpleTab.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleTab/SimpleTab-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleTab/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = XLPagerTabStrip;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleTab/SimpleTab.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimpleTab;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1011,29 +1203,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47D009CFE79F1E0C4C4E7479530672D2 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+		55D9E4C22F6A1D8E4853BD98AE3527ED /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3249D933366F09EC7BE153707F144B8 /* Debug */,
-				F15E8044336FE1CEF035446A00957998 /* Release */,
+				4285257329489B10D06D68C9FC415B81 /* Debug */,
+				38C547C33DFAD1A06E8C3488A129317B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D135F4305BCFD88414828DF084AE298 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+		A9FECDC59D39EAE9C1E56C8BC2A6B679 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F7764CDFFDF8FE7396B497289841851 /* Debug */,
-				EFAFE937D39443571F57819EC061A177 /* Release */,
+				E02666CF2A6F9842E4DE8EA0C668E581 /* Debug */,
+				C56D7A5DC0CFCF442265C842BEBECD71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4021E65F88430306AE33EAC2A279D79 /* Build configuration list for PBXNativeTarget "Pods-SoundNature" */ = {
+		BA6A569893007DA849E84EE13501B97F /* Build configuration list for PBXNativeTarget "SimpleTab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DFA98AD0BED8304C575DEAD5294332B /* Debug */,
-				3603A5D51866829274AB152AB9FF2DEC /* Release */,
+				F95254ECEA8A8C6F3C48965527699F2D /* Debug */,
+				EA1D995B1C70E7C191180D2860DDEEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44A8067C8257D9D6F1AADC042D7705A /* Build configuration list for PBXNativeTarget "Pods-SoundNature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CEBE9DC4914D74840974B2EB1461B3E /* Debug */,
+				3549AD1C31B50A5306D19863F97D8C10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

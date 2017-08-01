@@ -7,17 +7,11 @@
 //
 
 import UIKit
-import XLPagerTabStrip
 
-class SavedTracksViewController: UIViewController, IndicatorInfoProvider  {
+class SavedTracksViewController: BaseSoundsViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-    }
-
-    // MARK: - IndicatorInfoProvider
-    func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return IndicatorInfo(title: "SavedTracks", image: UIImage(named: "favorite"), highlightedImage: UIImage(named: "favoriteactive"))
     }
 }

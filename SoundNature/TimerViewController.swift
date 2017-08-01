@@ -7,18 +7,13 @@
 //
 
 import UIKit
-import XLPagerTabStrip
 
-class TimerViewController: UIViewController, IndicatorInfoProvider  {
+class TimerViewController: UIViewController {
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
 
-    }
-    
-    // MARK: - IndicatorInfoProvider
-    func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return IndicatorInfo(title: "Timer", image: UIImage(named: "timer"), highlightedImage: UIImage(named: "timeractive"))
     }
 
 }

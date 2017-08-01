@@ -4,6 +4,7 @@ target 'SoundNature' do
 
   use_frameworks!
   pod 'XLPagerTabStrip'
+pod ‘SimpleTab’
   # Pods for SoundNature
   target 'SoundNatureTests' do
     inherit! :search_paths
